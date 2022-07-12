@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+ 
+<body style="background-color: aqua;border-style: groove; height: 400px; width: 500px; float: left; margin-left: 450px;">
+
+  <div>
+
+    <div>
+
+      <form action="/uploadfile" enctype="multipart/form-data" method="post">
+
+        <fieldset>
+          <legend style="color: red;">
+            Upload csv file
+          </legend> <br>
+          <input type="file" name="myFile" accept='.csv' >
+          <input type="submit" value="Upload CSV">
+
+        </fieldset>
+      </form>
+
+    </div>
+
+
+
+
+    <div>
+      <fieldset>
+        <legend>
+          Files :
+        </legend>
+        <ul>
+
+          <% for(let i=0; i< files.length; i++){ %>
+
+            <li> <a href="csv-view<%= files[i].path.substring(9) %>">
+                <%= files[i].file %>
+              </a> </li>
+
+            <% } %>
+
+        </ul>
+      </fieldset>
+
+
+    </div>
+
+
+
+  </div>
+
+
+</body>
+
+</html>
