@@ -59,19 +59,17 @@ CSV Upload
 ```
 
   
-## Git Clone
-To use this repository in your local system-
-
-<a href="https://github.com/PranjalAgrawal1/CSV-Upload.git" target="_blank">https://github.com/PranjalAgrawal1/CSV-Upload.git </a>
-
-or run this command in your GitHub CLI
-
-###### `gh repo clone PranjalAgrawal1/CSV-Upload`
-<br>
 
 
 
-## <a href = "https://csv-upload-1.herokuapp.com/" target="_blank"> Demo / Hosted on - https://csv-upload-1.herokuapp.com/ </a>
+
+
+
+
+
+
+
+
 
 
 

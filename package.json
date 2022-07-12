@@ -7,7 +7,7 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pranjal Agrawal",
+  "author": "Pankaj singh",
   "license": "ISC",
   "dependencies": {
     "connect-mongo": "^4.6.0",
